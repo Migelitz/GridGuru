@@ -1,4 +1,4 @@
-from app.solver import SudokuSolver
+from solver import SudokuSolver
 
 GRID = [[7,8,0,4,0,0,1,2,0],
         [6,0,0,0,7,5,0,0,9],
@@ -11,7 +11,7 @@ GRID = [[7,8,0,4,0,0,1,2,0],
         [0,4,9,2,0,6,0,0,7]]
 
 solver = SudokuSolver(GRID)
-
+solver.solve()
 
 def show_board(board):
     for row in range(len(GRID)):
