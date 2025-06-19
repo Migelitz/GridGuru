@@ -4,24 +4,24 @@ A Python application designed to solve Sudoku puzzles with visualization options
 
 ## Overview 📝
 
-This project is currently under development. It aims to provide an efficient Sudoku solver with a user-friendly interface.
+This project is currently under development 🚧. It aims to provide an efficient Sudoku solver with a user-friendly interface.
 
-## Features
+## Features ✨
 
-### Current
+### Current 🛠️
 - Under active development 🔨
 
 ### Planned 🤔
-- Sudoku solving algorithm with two modes:
-  - Step-by-step visualization of the solving process
-  - Instant solution display
-- Image recognition capability to import Sudoku puzzles from images
-- User-friendly GUI built with PyQt5
+- 🧩 Sudoku solving algorithm with two modes:
+  - 👣 Step-by-step visualization of the solving process
+  - ⚡ Instant solution display
+- 🖼️ Image recognition capability to import Sudoku puzzles from images
+- 🖥️ User-friendly GUI built with PyQt5
 
-### Potential Future Features 
-- Complete Sudoku game with puzzle generation
-- Difficulty levels for generated puzzles
-- Hint system for players
+### Potential Future Features 🚀
+- 🎮 Complete Sudoku game with puzzle generation
+- 🧠 Difficulty levels for generated puzzles
+- 💡 Hint system for players
 
 ## Installation ✔️
 
@@ -31,31 +31,31 @@ git clone https://github.com/yourusername/sudoku-solution-finder.git
 cd sudoku-solution-finder
 ```
 
-## Dependencies
+## Dependencies 📦
 
 Current dependencies:
-- Python 3.x
+- 🐍 Python 3.x
 
 Future dependencies will likely include:
-- PyQt5 (for GUI)
-- OpenCV (for image recognition)
+- 🖥️ PyQt5 (for GUI)
+- 🖼️ OpenCV (for image recognition)
 
 When dependencies are formalized, they will be added to a requirements.txt file.
 
-## Usage
+## Usage ▶️
 
 Instructions will be provided as the project develops.
 
-## Technologies
+## Technologies 💻
 
 - Python
 - PyQt5 (planned for GUI)
 - OpenCV (planned for image recognition)
 
-## Contributing
+## Contributing 
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
+## License 📃
 
 [MIT](LICENSE)
