@@ -1,29 +1,29 @@
-# Sudoku Solution Finder Python
+# Sudoku Solution Finder Python 🔍
 
 A Python application designed to solve Sudoku puzzles with visualization options.
 
-## Overview
+## Overview 📝
 
 This project is currently under development. It aims to provide an efficient Sudoku solver with a user-friendly interface.
 
 ## Features
 
 ### Current
-- Under active development
+- Under active development 🔨
 
-### Planned
+### Planned 🤔
 - Sudoku solving algorithm with two modes:
   - Step-by-step visualization of the solving process
   - Instant solution display
 - Image recognition capability to import Sudoku puzzles from images
 - User-friendly GUI built with PyQt5
 
-### Potential Future Features
+### Potential Future Features 
 - Complete Sudoku game with puzzle generation
 - Difficulty levels for generated puzzles
 - Hint system for players
 
-## Installation
+## Installation ✔️
 
 ```bash
 # Clone the repository
