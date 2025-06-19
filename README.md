@@ -1,3 +1,3 @@
 # Sudoku Solution Finder Python
 
-# ‼️CURRENTLY UNDER DEVELOPMENT‼️
+## ‼️CURRENTLY UNDER DEVELOPMENT‼️
