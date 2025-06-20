@@ -1,3 +1,5 @@
+![WIP](https://img.shields.io/badge/status-work--in--progress-yellow)
+
 # Sudoku Solution Finder Python 🔍
 
 A Python application designed to solve Sudoku puzzles with visualization options.
