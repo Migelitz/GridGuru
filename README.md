@@ -14,16 +14,19 @@ This project is currently under development 🚧. It aims to provide an efficien
 - Under active development 🔨
 
 ### Planned 🤔
+- 📝 Two modes of importing data
+  - ✍️ Manually adding the number to the Sudoku table.
+- 🖼️ Image recognition capability to import Sudoku puzzles from images
 - 🧩 Sudoku solving algorithm with two modes:
   - 👣 Step-by-step visualization of the solving process
   - ⚡ Instant solution display
-- 🖼️ Image recognition capability to import Sudoku puzzles from images
 - 🖥️ User-friendly GUI built with PyQt5
 
 ### Potential Future Features 🚀
-- 🎮 Complete Sudoku game with puzzle generation
-- 🧠 Difficulty levels for generated puzzles
-- 💡 Hint system for players
+- ▶️ Playable Sudoku mode with live interactions and hint system
+  - 🎮 Complete Sudoku game with puzzle generation
+  - 🧠 Difficulty levels for generated puzzles
+  - 💡 Hint system for players
 
 ## Installation ✔️
 
