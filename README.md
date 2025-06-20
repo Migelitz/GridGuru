@@ -1,6 +1,6 @@
-![WIP](https://img.shields.io/badge/status-work--in--progress-yellow)
-
 # Sudoku Solution Finder Python 🔍
+
+![WIP](https://img.shields.io/badge/status-work--in--progress-yellow)
 
 A Python application designed to solve Sudoku puzzles with visualization options.
 
@@ -11,9 +11,11 @@ This project is currently under development 🚧. It aims to provide an efficien
 ## Features ✨
 
 ### Current 🛠️
+
 - Under active development 🔨
 
 ### Planned 🤔
+
 - 📝 Two modes of importing data
   - ✍️ Manually adding the number to the Sudoku table.
 - 🖼️ Image recognition capability to import Sudoku puzzles from images
@@ -23,6 +25,7 @@ This project is currently under development 🚧. It aims to provide an efficien
 - 🖥️ User-friendly GUI built with PyQt5
 
 ### Potential Future Features 🚀
+
 - ▶️ Playable Sudoku mode with live interactions and hint system
   - 🎮 Complete Sudoku game with puzzle generation
   - 🧠 Difficulty levels for generated puzzles
@@ -34,18 +37,28 @@ This project is currently under development 🚧. It aims to provide an efficien
 # Clone the repository
 git clone https://github.com/yourusername/sudoku-solution-finder.git
 cd sudoku-solution-finder
+
+# Create and activate virtual environment
+python -m venv .venv
+
+# On Windows
+.venv\Scripts\activate
+
+# On macOS/Linux
+# source .venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
 ```
 
 ## Dependencies 📦
 
-Current dependencies:
 - 🐍 Python 3.x
+- 🔢 NumPy - Mathematical operations
+- 🖼️ OpenCV - Image processing and recognition
+- 🖥️ PyQt5 - GUI framework
 
-Future dependencies will likely include:
-- 🖥️ PyQt5 (for GUI)
-- 🖼️ OpenCV (for image recognition)
-
-When dependencies are formalized, they will be added to a requirements.txt file.
+All dependencies are managed through the requirements.txt file and virtual environment.
 
 ## Usage ▶️
 
@@ -54,10 +67,11 @@ Instructions will be provided as the project develops.
 ## Technologies 💻
 
 - Python
-- PyQt5 (planned for GUI)
-- OpenCV (planned for image recognition)
+- PyQt5 for GUI
+- OpenCV for image recognition
+- NumPy for mathematical operations
 
-## Contributing 
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
