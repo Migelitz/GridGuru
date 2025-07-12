@@ -26,7 +26,7 @@ class SudokuSolver:
         row_box = pos[0] - (pos[0] % 3)
         col_box = pos[1] - (pos[1] % 3)
             
-        for row in range(row_box, col_box + 3):
+        for row in range(row_box, row_box + 3):
             for col in range(col_box, col_box + 3):
                 if self.grid[row][col] == num and (row, col) != pos:
                     return False
@@ -40,15 +40,16 @@ class SudokuSolver:
         else:
             row, col = find # Else save the row and column on find_empy() to these variable
             
-        for test in range(1, len(self.grid) + 1):
-            if self.valid(test, (row, col), self.grid):
-                self.grid[row][col] = test
+        for num in range(1, len(self.grid) + 1):
+            if self.valid(num, (row, col), self.grid):
+                self.grid[row][col] = num
                 
-                if self.solve(self.grid): # Recursively call the solve(); this works even inside of if statement to test if we will receive True or False
+                if self.solve(): # Recursively call the solve(); this works even inside of if statement to test if we will receive True or False
                     return True # If the line 39 become True and receive True, this will run and return True to the caller which tells that it is solved
                 
                 self.grid[row][col] = 0 # After saving, reset the test value then...
                 
-        return False # Return False and return to the last call stack (Below for explanation)
+        return False # Return False and return to the last call stack (Below for explanation); return False to the main.py caller if all recursion or possibilities are exhausted or no solution found (Return the same board since no solution).
     
     # The last call stack is (0,4) and current iteration is (0,5), if no valid, we weill return False to the last caller from (0,4) then process continues. For test, look for test file (Migelitz hold it for example oke? Its on .gitignore lol)
+    
