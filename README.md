@@ -6,23 +6,25 @@ A Python application designed to solve Sudoku puzzles with visualization options
 
 ## Overview 📝
 
-This project is currently under development 🚧. It aims to provide an efficient Sudoku solver with a user-friendly interface.
+The core Sudoku-solving logic is **complete**!  
+This project is still under development 🚧 for additional features, including a graphical user interface (GUI) and image import capability.
 
 ## Features ✨
 
 ### Current 🛠️
 
-- Under active development 🔨
+- ✅ Sudoku-solving algorithm (logic is complete)
+- Under active development for additional features
 
-### Planned 🤔
+### In Development / Planned 🤔
 
+- 🖥️ User-friendly GUI built with PyQt5 (**in progress**)
+- 🖼️ Image recognition capability to import Sudoku puzzles from images (**in progress**)
 - 📝 Two modes of importing data
-  - ✍️ Manually adding the number to the Sudoku table.
-- 🖼️ Image recognition capability to import Sudoku puzzles from images
-- 🧩 Sudoku solving algorithm with two modes:
+  - ✍️ Manually adding the numbers to the Sudoku table
+- 🧩 Visualization:
   - 👣 Step-by-step visualization of the solving process
   - ⚡ Instant solution display
-- 🖥️ User-friendly GUI built with PyQt5
 
 ### Potential Future Features 🚀
 
