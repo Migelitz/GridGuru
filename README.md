@@ -14,7 +14,7 @@ This project is still under development 🚧 for additional features, including 
 ### Current 🛠️
 
 - ✅ Sudoku-solving algorithm (logic is complete)
-- Under active development for additional features
+- 🚧 Under active development for GUI and image import
 
 ### In Development / Planned 🤔
 
@@ -68,10 +68,10 @@ Instructions will be provided as the project develops.
 
 ## Technologies 💻
 
-- Python
-- PyQt5 for GUI
-- OpenCV for image recognition
-- NumPy for mathematical operations
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![PyQt5](https://img.shields.io/badge/PyQt5-41CD52?style=flat-square&logo=qt&logoColor=white)](https://www.riverbankcomputing.com/software/pyqt/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)](https://opencv.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=NumPy&logoColor=white)](https://numpy.org/)
 
 ## Contributing
 
