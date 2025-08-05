@@ -1,4 +1,4 @@
-from solver import SudokuSolver
+from sudoku_solver import SudokuSolver
 
 grid = [[7,8,0,4,0,0,1,2,0],
         [6,0,0,0,7,5,0,0,9],
