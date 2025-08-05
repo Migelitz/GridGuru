@@ -68,9 +68,9 @@ class MainWindow(QMainWindow):
         # --- Bottom section: centered button ---
         # Use a horizontal layout to center the button horizontally
         bottom_layout = QHBoxLayout()
-        start_button = QPushButton("Start")
+        start_button = QPushButton("START")
         # Set a large font for the button text
-        start_button.setFont(QFont("Arial", 20))
+        start_button.setFont(QFont("Arial", 25, QFont.Bold))
         # Set a fixed size for the button
         start_button.setFixedSize(400, 100)
         # Add stretchable space to the left and right to center the button
