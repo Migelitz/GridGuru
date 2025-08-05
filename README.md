@@ -37,7 +37,7 @@ This project is still under development 🚧 for additional features, including 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/sudoku-solution-finder.git
+git clone https://github.com/yourusername/GridGuru.git
 cd sudoku-solution-finder
 
 # Create and activate virtual environment
